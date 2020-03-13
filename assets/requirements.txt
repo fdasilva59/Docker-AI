@@ -1,0 +1,95 @@
+# -----------------------------------------------------------------------------
+#                                  AI-DevBox
+#                             Python Requirements
+# -----------------------------------------------------------------------------
+
+# --- Core packages ---
+scipy
+numpy
+scikit-learn
+xgboost
+pandas
+Pillow
+jupyterlab
+
+# --- Visualization ---
+matplotlib
+bokeh
+seaborn
+altair
+vega_datasets
+streamlit
+
+# --- Tools ---
+cython
+pip
+setuptools
+six
+docopt
+parmap
+pytest
+pyyaml
+grpcio
+pylint
+rich
+progressbar2
+tqdm
+
+# --- NLP ---
+spacy
+beautifulsoup4
+gensim
+nltk
+
+# --- Tensorflow ---
+tensorflow    # Support GPU by default since 1.15
+tensorboard
+tensorflow-hub
+tensorflow-probability
+tfx
+keras-tuner
+keras_applications
+keras_preprocessing
+h5py
+
+# --- Pytorch ---
+torch
+torchvision
+tensorboardX
+fastai
+
+# --- Deep Reinforcement Learning ---
+pyvirtualdisplay
+opencv-python
+gym
+box2d
+box2d-py
+
+# --- Coral TPU Edge ---
+https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp${PY}-cp${PY}m-linux_x86_64.whl
+
+# --- JAX ---
+https://storage.googleapis.com/jax-releases/${CUDA_VERSION}/jaxlib-${JAX_VERSION}-cp${PY}-none-linux_x86_64.whl
+jax
+git+https://github.com/deepmind/dm-haiku
+git+git://github.com/deepmind/rlax.git
+
+
+# --- RAPIDS ---
+# Note : RAPIDS is not yet available from pypy (Installation is done via conda)
+
+# ---------------------- Kubeflow SDK --------------------------
+# IMPORTANT: before uncommenting, be aware that these sdk
+# currently require version constraints that conflicts with
+# some others packages installation
+# --------------------------------------------------------------
+#kubeflow-fairing
+#kfp
+
+# ------------ Nvidia GPU monitoring in Jupyterlab ------------------
+# IMPORTANT: before uncommenting, be aware that there is an issue
+# with this package on systems without NVLink
+# ("Not Supported error on systems without NVLink" in Jupyter logs)
+# see https://github.com/rapidsai/jupyterlab-nvdashboard/issues/28
+# -------------------------------------------------------------------
+#jupyterlab-nvdashboard

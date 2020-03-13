@@ -1,0 +1,60 @@
+# -----------------------------------------------------------------------------
+#                                  AI-DevBox
+#                            Apt system Requirements
+# -----------------------------------------------------------------------------
+
+# --- Core packages ---
+locales
+vim
+wget
+curl
+htop
+zsh
+git
+unzip
+zip
+bzip2
+gawk
+python3
+python3-distutils
+python3-pip
+pylint
+
+# --- Nvidia TensorRT ---
+python3-libnvinfer=6.0.1-1+cuda10.1
+python3-libnvinfer-dev=6.0.1-1+cuda10.1
+libnvinfer6=6.0.1-1+cuda10.1
+libnvinfer-plugin6=6.0.1-1+cuda10.1
+libnvparsers6=6.0.1-1+cuda10.1
+libnvonnxparsers6=6.0.1-1+cuda10.1
+libnvinfer-dev=6.0.1-1+cuda10.1
+libnvinfer-plugin-dev=6.0.1-1+cuda10.1
+libnvparsers-dev=6.0.1-1+cuda10.1
+libnvonnxparsers-dev=6.0.1-1+cuda10.1
+libcudnn7-dev=7.6.5.32-1+cuda10.1
+#uff-converter-tf
+
+# --- Deep Reinforcement Learning environment dependencies ---
+xvfb
+ffmpeg
+zlib1g-dev
+libjpeg-dev
+patchelf
+cmake
+pkg-config
+swig
+libboost-all-dev
+libsdl2-dev
+libosmesa6-dev
+libfreetype6-dev
+python-pyglet
+python3-opengl
+#python-opengl
+
+# --- Coral TPU Edge ---
+python3-edgetpu
+edgetpu-examples
+edgetpu
+# Choose TPU Edge Performance mode
+libedgetpu1-std
+#libedgetpu1-max
